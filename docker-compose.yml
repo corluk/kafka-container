@@ -1,0 +1,17 @@
+version: '3.7' 
+services: 
+    zookeeper1:
+        build: zookeeper 
+    zookeeper2:
+        build: zookeeper 
+    zookeeper3:
+        build: zookeeper 
+    kafka1:
+        build: kafka
+    kafka2:
+        build: kafka
+
+    kafka3:
+        build: kafka
+
+    
